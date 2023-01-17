@@ -30,5 +30,13 @@ public class Main {
         System.out.println("Float: " + number5);
         System.out.println("Booleano: " + isTrue);
         System.out.println("Cadena de caracteres: " + string1);
+
+
+        SmartPhone Iphone = new SmartPhone("IOS", 1250.2, "Negro", 5);
+        SmartWatch Iwatch = new SmartWatch("Android", 99.9, "Morado", 10);
+
+        System.out.println(Iphone.sistemaOperativo);
+
+        System.out.println(Iwatch.sistemaOperativo);
     }
 }
